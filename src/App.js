@@ -5,8 +5,6 @@ import CreateBlog from './CreateBlog'
 import BlogDetails from './BlogDetails'
 import NotFound from './NotFound'
 function App() {
-  const title = 'Welcome to the New Blog'
-  const likes = 50
   return (
     <BrowserRouter>
       <div className="App">
