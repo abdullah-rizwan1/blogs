@@ -31,7 +31,7 @@ jobs:
           json-server --watch ./data/db.json --port 8000 &
       - name: Build React app
         run: |
-          npm build
+          npm run build
 
       
       - run: npm ci
